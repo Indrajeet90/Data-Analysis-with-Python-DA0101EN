@@ -2164,7 +2164,7 @@ plt.pyplot.title("horsepower bins")
 
 
 
-![png](output_99_1.png)
+(output_99_1.png)
 
 
 The plot above shows the binning result for attribute "horsepower". 
