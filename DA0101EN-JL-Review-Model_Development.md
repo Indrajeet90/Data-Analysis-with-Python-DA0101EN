@@ -655,7 +655,7 @@ plt.ylim(0,)
 
 
 
-![png](output_79_1.png)
+![output_79_1](https://user-images.githubusercontent.com/36623487/44046438-4fd69d14-9ee0-11e8-9f34-ee412679bca6.png)
 
 
 We can see from this plot that price is negatively correlated to highway-mpg, since the regression slope is negative.
@@ -676,7 +676,7 @@ plt.ylim(0,)
 
 
 
-![png](output_81_1.png)
+![output_81_1](https://user-images.githubusercontent.com/36623487/44046439-501724c4-9ee0-11e8-9a75-0b3c08296aa6.png)
 
 
 Comparing the regression plot of "peak-rpm" and "highway-mpg" We see that the points for "highway-mpg" are much closer to the generated line and on the average decrease. The points for "peak-rpm"  have more spread around the predicted line, and it is much harder to determine if the points are decreasing or increasing as the  "highway-mpg"  increases.
@@ -749,7 +749,7 @@ plt.show()
 ```
 
 
-![png](output_87_0.png)
+![output_87_0](https://user-images.githubusercontent.com/36623487/44046440-504ab3f2-9ee0-11e8-9b4b-0ec82e71eae2.png)
 
 
 *What is this plot telling us?*
@@ -787,7 +787,7 @@ plt.close()
 ```
 
 
-![png](output_93_0.png)
+![output_93_0](https://user-images.githubusercontent.com/36623487/44046441-50801e16-9ee0-11e8-895f-559f875904dc.png)
 
 
 We can see that the fitted values are reasonably close to the actual values, since the two distributions overlap a bit. However, there is definitely some room for improvement.
@@ -903,7 +903,7 @@ PlotPolly(p,x,y, 'highway-mpg')
 
 
 
-![png](output_106_1.png)
+![output_106_1](https://user-images.githubusercontent.com/36623487/44046443-50b69b3a-9ee0-11e8-848a-8c58f576a845.png)
 
 
 
@@ -968,7 +968,7 @@ np.polyfit(x, y, 11)
 
 
 
-![png](output_110_2.png)
+![output_110_2](https://user-images.githubusercontent.com/36623487/44046445-51b7ff56-9ee0-11e8-9a6e-9fc83f584df4.png)
 
 
 Double-click __here__ for the solution.
@@ -1360,7 +1360,7 @@ plt.show()
 ```
 
 
-![png](output_177_0.png)
+![output_177_0](https://user-images.githubusercontent.com/36623487/44046446-51ef2850-9ee0-11e8-895e-b844d0faa85f.png)
 
 
 ### Decision Making: Determining a Good Model Fit
