@@ -909,7 +909,7 @@ plt.ylim(0,)
 
 
 
-![png](output_28_1.png)
+![output_28_1](https://user-images.githubusercontent.com/36623487/44034786-d34d4af8-9ec2-11e8-855f-33c66de1a9e4.png)
 
 
 As the engine-size goes up, the price goes up: this indicates a positive direct correlation between these two variables. Engine size seems like a pretty good predictor of price since the regression line is almost a perfect diagonal line. E
@@ -980,7 +980,7 @@ sns.regplot(x="highway-mpg", y="price", data=df)
 
 
 
-![png](output_34_1.png)
+![output_34_1](https://user-images.githubusercontent.com/36623487/44034787-d385cc70-9ec2-11e8-94a7-e4dadecd1002.png)
 
 
 As the highway-mpg goes up, the price goes down: this indicates an inverse/ negative relationship between these two variables. Highway mpg could potentially be a predictor of price.
@@ -1052,7 +1052,7 @@ sns.regplot(x="peak-rpm", y="price", data=df)
 
 
 
-![png](output_40_1.png)
+![output_40_1](https://user-images.githubusercontent.com/36623487/44034788-d3ba92ca-9ec2-11e8-8a32-a25c2eeeca05.png)
 
 
 Peak rpm does not seem like a good predictor of the price at all since the regression line is close to horizontal. Also, the data points are very scattered and far from the fitted line, showing lots of variability. Therefore it's it is not a reliable variable.
@@ -1189,7 +1189,7 @@ sns.regplot(x="stroke", y="price", data=df)
 
 
 
-![png](output_48_1.png)
+![output_48_1](https://user-images.githubusercontent.com/36623487/44034789-d3f0a0ea-9ec2-11e8-8d85-b5c4f649252b.png)
 
 
 Double-click __here__ for the solution.
@@ -1221,7 +1221,7 @@ sns.boxplot(x="body-style", y="price", data=df)
 
 
 
-![png](output_52_1.png)
+![output_52_1](https://user-images.githubusercontent.com/36623487/44034791-d422faf4-9ec2-11e8-9e63-c3c93870c08d.png)
 
 
 We see that the distributions of price between the different body-style categories have a significant overlap, and so body-style would not be a good predictor of price. Let's examine engine "engine-location" and "price" :
@@ -1239,7 +1239,7 @@ sns.boxplot(x="engine-location", y="price", data=df)
 
 
 
-![png](output_54_1.png)
+![output_54_1](https://user-images.githubusercontent.com/36623487/44034793-d45b3414-9ec2-11e8-92e8-7855cea1a21f.png)
 
 
 Here we see that the distribution of price between these two engine-location categories, front and rear, are distinct enough to take engine-location as a potential good predictor of price. 
@@ -1260,7 +1260,7 @@ sns.boxplot(x="drive-wheels", y="price", data=df)
 
 
 
-![png](output_57_1.png)
+![output_57_1](https://user-images.githubusercontent.com/36623487/44034794-d48cc574-9ec2-11e8-8f71-475e42b10ed6.png)
 
 
 Here we see that the distribution of price between the different drive-wheels categories differs; as such drive-wheels could potentially be a predictor of price.
@@ -2323,8 +2323,7 @@ plt.show()
 ```
 
 
-![png](output_98_0.png)
-
+![output_98_0](https://user-images.githubusercontent.com/36623487/44034795-d4c3b0ca-9ec2-11e8-8fcd-2f7ddb0f643b.png)
 
 The heatmap plots the target variable (price) proportional to colour with respect to the variables 'drive-wheel' and 'body-style' in the vertical and horizontal axis respectively. This allows us to visualize how the price is related to 'drive-wheel' and 'body-style', 
 The default labels convey no useful information to us. Let's change that:
@@ -2351,7 +2350,7 @@ plt.show()
 ```
 
 
-![png](output_100_0.png)
+![output_100_0](https://user-images.githubusercontent.com/36623487/44034796-d4f97dc2-9ec2-11e8-8917-64981488e6d7.png)
 
 
 Visualization is very important in data science, and Python visualization packages provide great freedom. We will go more in-depth in a separate Python Visualizations course.
