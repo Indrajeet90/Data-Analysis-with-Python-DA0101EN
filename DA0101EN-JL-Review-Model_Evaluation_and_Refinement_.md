@@ -451,8 +451,7 @@ DistributionPlot(y_train,yhat_train,"Actual Values (Train)","Predicted Values (T
 ```
 
 
-![png](output_64_0.png)
-
+![output_64_0](https://user-images.githubusercontent.com/36623487/44048311-d95a3500-9ee5-11e8-9c1e-093b24ac5ea7.png)
 
  Figur 1: Plot of predicted values using the training data compared to the training data. 
 
@@ -465,8 +464,7 @@ DistributionPlot(y_test,yhat_test,"Actual Values (Test)","Predicted Values (Test
 ```
 
 
-![png](output_67_0.png)
-
+![output_67_0](https://user-images.githubusercontent.com/36623487/44048312-d99bd17c-9ee5-11e8-9175-4f6ddd8a2242.png)
 
 Figur 2: Plot of predicted value using the test data compared to the test data. 
 
@@ -563,7 +561,7 @@ PollyPlot(x_train[['horsepower']],x_test[['horsepower']],y_train,y_test,poly,pr)
 ```
 
 
-![png](output_83_0.png)
+![output_83_0](https://user-images.githubusercontent.com/36623487/44048313-d9ddefa8-9ee5-11e8-86c6-20a563940d9f.png)
 
 
 Figur 4 A polynomial regression model, red dots represent training data, green dots represent test data, and the blue line represents the model prediction. 
@@ -633,7 +631,7 @@ plt.text(3, 0.75, 'Maximum R^2 ')
 
 
 
-![png](output_92_1.png)
+![output_92_1](https://user-images.githubusercontent.com/36623487/44048314-da311df4-9ee5-11e8-91f9-182d23fad6fc.png)
 
 
  We see the R^2 gradually increases until an order three polynomial is used. Then the  R^2 dramatically decreases at four.
@@ -661,7 +659,7 @@ interact(f, order=(0,6,1),test_data=(0.05,0.95,0.05))
 ```
 
 
-![png](output_97_0.png)
+![output_97_0](https://user-images.githubusercontent.com/36623487/44048315-da69f656-9ee5-11e8-9750-15fd7774dba2.png)
 
 
 
@@ -881,7 +879,7 @@ plt.legend()
 
 
 
-![png](output_128_1.png)
+![output_128_1](https://user-images.githubusercontent.com/36623487/44048316-daa36742-9ee5-11e8-80f9-a67313f70bb5.png)
 
 
   Figure 6:The blue line represents the R^2 of the test data, and the red line represents the R^2 of the training data. The x-axis represents the different values of Alfa 
